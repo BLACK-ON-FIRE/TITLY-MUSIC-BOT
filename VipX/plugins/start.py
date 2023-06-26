@@ -44,7 +44,7 @@ async def start_comm(client, message: Message, _):
         name = message.text.split(None, 1)[1]
         if name[0:4] == "help":
             keyboard = help_pannel(_)
-            await message.reply_sticker("CAACAgEAAxkBAAEIS2FkHfJQpbvRTfhyfS67BxulycCtegAC-gADUSkNORIJSVEUKRrhLwQ")
+            await message.reply_sticker("CAACAgUAAxkBAAEBXMFkmX60ZPWTp7VhgmNc-UzVE_QcbgACSAMAAiEzaVd2PAHIc_adly8E")
             return await message.reply_photo(
                        photo=config.START_IMG_URL,
                        caption=_["help_1"].format(config.SUPPORT_HEHE), reply_markup=keyboard
@@ -173,7 +173,7 @@ async def start_comm(client, message: Message, _):
 ● 📡 **𝐋𝐢𝐧𝐤 ➪ [ᴡᴀᴛᴄʜ ᴏɴ ʏᴏᴜᴛᴜʙᴇ]({link})**☆.♡
 •✰˚♫. * ● ¸ . ★ .¸¸♡¸¸★ :●. *°☆ ¸. ● .. ✷
 
-☆............𝙱𝚈 » [𝚅𝙸𝙿 𝙱𝙾𝚈](https://t.me/the_vip_boy)............☆"""
+"""
             key = InlineKeyboardMarkup(
                 [
                     [
@@ -181,7 +181,7 @@ async def start_comm(client, message: Message, _):
                             text="🥀𝐘𝐎𝐔𝐓𝐔𝐁𝐄🥀", url=f"{link}"
                         ),
                         InlineKeyboardButton(
-                            text="🏓𝐒𝐔𝐏𝐏𝐎𝐑𝐓🏓", url="https://t.me/TG_FRIENDSS"
+                            text="🏓𝐒𝐔𝐏𝐏𝐎𝐑𝐓🏓", url="https://t.me/Intangible_creatoR"
                         ),
                     ],
                 ]
@@ -232,7 +232,7 @@ async def start_comm(client, message: Message, _):
             sender_name = message.from_user.first_name
             return await app.send_message(
                 config.LOG_GROUP_ID,
-                f"{message.from_user.mention} 𝐉𝐮𝐬𝐭 𝐒𝐭𝐚𝐫𝐭𝐞𝐝 𝐕𝐢𝐩 𝐁𝐨𝐭😍.\n\n**𝐔𝐬𝐞𝐫 𝐈𝐝:-** {sender_id}\n**𝐍𝐚𝐦𝐞:-** {sender_name}",
+                f"{message.from_user.mention} 𝐉𝐮𝐬𝐭 𝐒𝐭𝐚𝐫𝐭𝐞𝐝  𝐁𝐨𝐭😍.\n\n**𝐔𝐬𝐞𝐫 𝐈𝐝:-** {sender_id}\n**𝐍𝐚𝐦𝐞:-** {sender_name}",
             )
 
 
