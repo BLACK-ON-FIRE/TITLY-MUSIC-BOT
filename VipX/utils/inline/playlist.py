@@ -14,7 +14,7 @@ def botplaylist_markup(_):
         ],
         [
             InlineKeyboardButton(
-                text="✯ ᴄʟᴏsᴇ ✯", callback_data="close"
+                text=" ᴄʟᴏsᴇ", callback_data="close"
             ),
         ],
     ]
